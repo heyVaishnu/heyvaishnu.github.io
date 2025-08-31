@@ -27,5 +27,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: master
           publish_dir: ./build
-          cname: ${{ secrets.CNAME_DOMAIN }}
+          # cname: ${{ secrets.CNAME_DOMAIN }}
